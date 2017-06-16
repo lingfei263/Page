@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/listview_emptyview"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:paddingBottom="10dp"
+    android:paddingTop="10dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="57dp"
+        android:layout_height="57dp"
+        android:src="@drawable/ic_no_content"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/tv_listview_empty_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/summary_color"
+        android:textAlignment="center"
+        android:text="暂无数据，点击重新加载"
+        android:layout_marginTop="2dp"
+        android:layout_below="@+id/imageView1"/>
+
+</RelativeLayout>
