@@ -16,7 +16,7 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import cn.ffb.page.R;
-import cn.ffb.utils.DisplayUtils;
+import cn.ffb.widget.xrecyclerview.DisplayUtils;
 import cn.ffb.widget.xrecyclerview.RecyclerListView;
 
 /**
